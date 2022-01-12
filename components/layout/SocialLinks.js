@@ -21,7 +21,6 @@ export default function SocialLinks() {
           key={index}
           aria-label={link.name}
           size="small"
-          tooltipTitle={link.name}
           onClick={() => handleClick(link.path)}
           sx={link.styles}
         >
