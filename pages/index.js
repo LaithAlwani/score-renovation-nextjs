@@ -56,8 +56,8 @@ export default function Home() {
                 >
                   is our main priority
                 </Typography>
-                <Button variant="contained" sx={styles.button} href="/about-us">
-                  Learn More
+                <Button variant="contained" sx={styles.button} href="/about">
+                  About Us
                 </Button>
               </Box>
             </Box>
